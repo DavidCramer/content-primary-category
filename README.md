@@ -74,7 +74,7 @@ it's possible, but not advised, to use a value meta query.
 $args = [
 	'post_type'      => 'post',
 	'posts_per_page' => 10,
-	'meta_key'       => 'primary_category',
+	'meta_key'       => '_content_primary_category',
 	'meta_value'     => {term_id}
 ];
 $query = new WP_Query( $args );
@@ -85,7 +85,7 @@ $args = [
 	'posts_per_page' => 10,
 	'meta_query'     => [
 		[
-			'key'     => 'primary_category',
+			'key'     => '_content_primary_category',
 			'value'   => {term_id}
 		],
 	],
