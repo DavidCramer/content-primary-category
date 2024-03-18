@@ -96,6 +96,8 @@ $args = [
 
 Due to time constraints, I did not include unit tests. I did however setup the
 unit tests structure with a single passing test.
+Tests have been setup to run in isolation.
+
 The unit tests are included as part of the composer package.
 In the root of the plugin, run `composer install`
 Once installed, you'll be able to run the tests as such:

@@ -36,16 +36,3 @@ function primary_category_php_ver() {
 }
 
 register_activation_hook( __FILE__, 'flush_rewrite_rules' );
-
-$args = [
-	'post_type'      => 'post',
-	'posts_per_page' => 10,
-	'meta_query'     => [
-		[
-			'key'     => '_cpc_{term_slug}',
-			'compare' => 'EXISTS',
-		],
-	],
-];
-
-

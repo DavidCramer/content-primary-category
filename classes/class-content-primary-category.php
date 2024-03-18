@@ -82,5 +82,4 @@ class Content_Primary_Category {
 		$asset = include PRIMCAT_PATH . 'build/editor.asset.php';
 		wp_enqueue_script( 'content_primary_category', PRIMCAT_URL . '/build/editor.js', $asset['dependencies'], $asset['version'], true );
 	}
-
 }
