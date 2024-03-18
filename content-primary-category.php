@@ -34,5 +34,3 @@ function primary_category_php_ver() {
 	$message = __( 'Primary Category requires PHP version 8.0 or later. We strongly recommend PHP 8.0 or later for security and performance reasons.', 'primary-category' );
 	echo sprintf( '<div id="primary_category_error" class="error notice notice-error"><p>%s</p></div>', esc_html( $message ) );
 }
-
-register_activation_hook( __FILE__, 'flush_rewrite_rules' );
