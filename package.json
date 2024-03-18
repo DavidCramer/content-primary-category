@@ -1,0 +1,20 @@
+{
+  "name": "content-primary-category",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@wordpress/scripts": "^27.4.0",
+    "@wordpress/server-side-render": "^4.30.0",
+    "@wordpress/hooks": "^3.53.0",
+    "@wordpress/core-data": "^6.30.0",
+    "@wordpress/data": "^9.23.0",
+    "@wordpress/editor": "^13.30.0",
+    "@wordpress/components": "^27.1.0",
+    "@wordpress/element": "^5.30.0",
+    "@wordpress/compose": "^6.30.0",
+    "@wordpress/i18n": "^4.53.0"
+  },
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build"
+  }
+}

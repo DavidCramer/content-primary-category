@@ -1,0 +1,33 @@
+{
+  "name": "cramer/content-primary-category",
+  "description": "Plugin to enable setting and querying content via a primary category.",
+  "license": "GPL-2.0+",
+  "type": "wordpress-plugin",
+  "authors": [
+    {
+      "name": "David Cramer",
+      "email": "david@digilab.co.za"
+    }
+  ],
+  "support": {
+    "src": "https://github.com/DavidCramer/content-primary-category",
+    "issues": "https://github.com/DavidCramer/content-primary-category/issues"
+  },
+  "require": {
+    "php": ">=8.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5",
+    "10up/wp_mock": "1.0.0",
+    "10up/phpcs-composer": "^3.0.0"
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  },
+  "scripts": {
+    "test": "phpunit",
+    "lint": "phpcs -d  error_reporting=E_ALL"
+  }
+}
