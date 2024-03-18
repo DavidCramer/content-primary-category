@@ -2,8 +2,8 @@
 /*
  * Plugin Name: Content Primary Category
  * Plugin URI: https://cramer.co.za
- * Description:
- * Version: 0.0.1
+ * Description: Content Primary Category is a simple plugin that allows publishers to specify a Primary Category to a post or custom content type.
+ * Version: 1.0.0
  * Author: David Cramer
  * Author URI: https://cramer.co.za
  * Text Domain: content-primary-category
