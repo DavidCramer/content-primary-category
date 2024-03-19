@@ -38,7 +38,7 @@ The plugin adds two meta entries when a primary category is set.
 1. Meta key `_content_primary_category` with the term ID as its value.
 2. Meta key `_cpc_{term_slug}` with the term ID as its value.
 
-It's much faster querying for the existance of a meta key, as the metta_key
+It's much faster querying for the existance of a meta key, as the `meta_key`
 column is indexed.
 
 ```php
